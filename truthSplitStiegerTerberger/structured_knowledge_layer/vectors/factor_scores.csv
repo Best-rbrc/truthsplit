@@ -1,0 +1,7 @@
+worldview_id,individualism,negative_vs_positive_rights,property_absolutism,market_vs_state_trust,deontology_vs_consequentialism,authority_tradition_vs_autonomy,free_speech_absolutism,redistribution_acceptance,harm_sanctity_focus,harm_ecological_focus,precaution,cosmopolitanism,sufficiency_degrowth,long_term_horizon,equality_vs_liberty_priority,externality_sensitivity
+populist_nationalist,0.65,0.8,0.75,0.7,0.55,0.8,0.6,0.25,0.75,0.2,0.35,0.2,0.15,0.5,0.3,0.25
+libertarian,0.95,0.95,0.9,0.9,0.8,0.3,0.9,0.15,0.1,0.15,0.3,0.6,0.1,0.6,0.15,0.3
+neo_reactionary,0.4,0.5,0.6,0.7,0.25,0.9,0.4,0.5,0.3,0.4,0.5,0.6,0.2,0.85,0.3,0.5
+religious_conservative,0.45,0.55,0.6,0.55,0.5,0.85,0.45,0.55,0.9,0.35,0.55,0.4,0.35,0.65,0.55,0.55
+communist,0.2,0.15,0.05,0.1,0.3,0.4,0.4,0.95,0.5,0.65,0.6,0.9,0.7,0.8,0.9,0.75
+eco_justice,0.55,0.4,0.35,0.35,0.3,0.55,0.6,0.8,0.4,0.95,0.9,0.75,0.85,0.9,0.7,0.95

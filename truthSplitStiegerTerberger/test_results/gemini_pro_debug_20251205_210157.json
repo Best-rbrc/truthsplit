@@ -1,0 +1,340 @@
+{
+  "timestamp": "2025-12-05T21:00:52.347565",
+  "claim_extraction": {
+    "success": true,
+    "time": 21.20729923248291,
+    "result": {
+      "claims": [
+        {
+          "id": "C1",
+          "text": "Artificial intelligence is revolutionizing healthcare",
+          "confidence": 0.95,
+          "type": "claim",
+          "position": 0,
+          "premises": [
+            {
+              "id": "P1",
+              "text": "by enabling earlier disease detection and more accurate diagnoses.",
+              "confidence": 0.98,
+              "type": "premise",
+              "position": 46,
+              "claim_ids": [
+                "C1"
+              ]
+            }
+          ],
+          "assumptions": [
+            {
+              "id": "A1",
+              "text": "Earlier detection and more accurate diagnoses are inherently revolutionary improvements for healthcare.",
+              "confidence": 0.9,
+              "type": "assumption",
+              "claim_id": "C1",
+              "category": "Value",
+              "domain": "Healthcare"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "text": "AI systems may... [lead] to unequal healthcare outcomes for minority groups.",
+          "confidence": 0.9,
+          "type": "claim",
+          "position": 111,
+          "premises": [
+            {
+              "id": "P2",
+              "text": "AI systems may perpetuate existing biases in medical data",
+              "confidence": 0.98,
+              "type": "premise",
+              "position": 81,
+              "claim_ids": [
+                "C2"
+              ]
+            }
+          ],
+          "assumptions": [
+            {
+              "id": "A2",
+              "text": "The biases present in medical data are significant enough to negatively alter healthcare outcomes when used to train AI.",
+              "confidence": 0.95,
+              "type": "assumption",
+              "claim_id": "C2",
+              "category": "Empirical",
+              "domain": "Ethical"
+            },
+            {
+              "id": "A3",
+              "text": "Human oversight or other corrective measures will be insufficient to prevent biased AI outcomes.",
+              "confidence": 0.85,
+              "type": "assumption",
+              "claim_id": "C2",
+              "category": "Empirical",
+              "domain": "Operational"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "text": "the high cost of implementing AI systems could widen the gap between wealthy and under-resourced healthcare facilities.",
+          "confidence": 0.95,
+          "type": "claim",
+          "position": 230,
+          "premises": [
+            {
+              "id": "P3",
+              "text": "the high cost of implementing AI systems",
+              "confidence": 0.98,
+              "type": "premise",
+              "position": 230,
+              "claim_ids": [
+                "C3"
+              ]
+            }
+          ],
+          "assumptions": [
+            {
+              "id": "A4",
+              "text": "Under-resourced healthcare facilities will not be able to afford the high cost of AI systems.",
+              "confidence": 0.95,
+              "type": "assumption",
+              "claim_id": "C3",
+              "category": "Empirical",
+              "domain": "Economic"
+            },
+            {
+              "id": "A5",
+              "text": "The advantages provided by AI are so significant that not having access to them creates a meaningful gap in healthcare quality.",
+              "confidence": 0.9,
+              "type": "assumption",
+              "claim_id": "C3",
+              "category": "Value",
+              "domain": "Healthcare"
+            }
+          ]
+        }
+      ],
+      "premises": [
+        {
+          "id": "P1",
+          "text": "by enabling earlier disease detection and more accurate diagnoses.",
+          "confidence": 0.98,
+          "type": "premise",
+          "position": 46,
+          "claim_ids": [
+            "C1"
+          ]
+        },
+        {
+          "id": "P2",
+          "text": "AI systems may perpetuate existing biases in medical data",
+          "confidence": 0.98,
+          "type": "premise",
+          "position": 81,
+          "claim_ids": [
+            "C2"
+          ]
+        },
+        {
+          "id": "P3",
+          "text": "the high cost of implementing AI systems",
+          "confidence": 0.98,
+          "type": "premise",
+          "position": 230,
+          "claim_ids": [
+            "C3"
+          ]
+        }
+      ],
+      "assumptions": [
+        {
+          "id": "A1",
+          "text": "Earlier detection and more accurate diagnoses are inherently revolutionary improvements for healthcare.",
+          "confidence": 0.9,
+          "type": "assumption",
+          "claim_id": "C1",
+          "category": "Value",
+          "domain": "Healthcare"
+        },
+        {
+          "id": "A2",
+          "text": "The biases present in medical data are significant enough to negatively alter healthcare outcomes when used to train AI.",
+          "confidence": 0.95,
+          "type": "assumption",
+          "claim_id": "C2",
+          "category": "Empirical",
+          "domain": "Ethical"
+        },
+        {
+          "id": "A3",
+          "text": "Human oversight or other corrective measures will be insufficient to prevent biased AI outcomes.",
+          "confidence": 0.85,
+          "type": "assumption",
+          "claim_id": "C2",
+          "category": "Empirical",
+          "domain": "Operational"
+        },
+        {
+          "id": "A4",
+          "text": "Under-resourced healthcare facilities will not be able to afford the high cost of AI systems.",
+          "confidence": 0.95,
+          "type": "assumption",
+          "claim_id": "C3",
+          "category": "Empirical",
+          "domain": "Economic"
+        },
+        {
+          "id": "A5",
+          "text": "The advantages provided by AI are so significant that not having access to them creates a meaningful gap in healthcare quality.",
+          "confidence": 0.9,
+          "type": "assumption",
+          "claim_id": "C3",
+          "category": "Value",
+          "domain": "Healthcare"
+        }
+      ],
+      "summary": {
+        "total_claims": 3,
+        "total_premises": 3,
+        "total_assumptions": 5
+      }
+    }
+  },
+  "reasoning_analysis": {
+    "success": true,
+    "time": 43.93605089187622,
+    "result": {
+      "worldview_analyses": {
+        "populist_nationalist": {
+          "worldview_id": "populist_nationalist",
+          "worldview_name": "Populist-Nationalist (MAGA-Style)",
+          "claim_analyses": [
+            {
+              "error": "LLM analysis required but failed: OpenRouter API error with model google/gemini-2.5-pro: Unterminated string starting at: line 2 column 21 (char 22)",
+              "claim_text": "AI systems may perpetuate existing biases in medical data"
+            }
+          ],
+          "overall_assessment": {
+            "dominant_stance": "mixed/conditional",
+            "position_distribution": {
+              "support": 0,
+              "oppose": 0,
+              "conditional": 1
+            },
+            "consistency_pattern": "consistent",
+            "worldview_summary": "Populist-Nationalist (MAGA-Style) shows mixed/conditional stance"
+          }
+        },
+        "libertarian": {
+          "worldview_id": "libertarian",
+          "worldview_name": "Libertarian",
+          "claim_analyses": [
+            {
+              "error": "LLM analysis required but failed: OpenRouter API error with model google/gemini-2.5-pro: Unterminated string starting at: line 2 column 21 (char 22)",
+              "claim_text": "AI systems may perpetuate existing biases in medical data"
+            }
+          ],
+          "overall_assessment": {
+            "dominant_stance": "mixed/conditional",
+            "position_distribution": {
+              "support": 0,
+              "oppose": 0,
+              "conditional": 1
+            },
+            "consistency_pattern": "consistent",
+            "worldview_summary": "Libertarian shows mixed/conditional stance"
+          }
+        },
+        "neo_reactionary": {
+          "worldview_id": "neo_reactionary",
+          "worldview_name": "Neo-Reactionary / Techno-Monarchist",
+          "claim_analyses": [
+            {
+              "error": "LLM analysis required but failed: OpenRouter API error with model google/gemini-2.5-pro: Unterminated string starting at: line 2 column 21 (char 22)",
+              "claim_text": "AI systems may perpetuate existing biases in medical data"
+            }
+          ],
+          "overall_assessment": {
+            "dominant_stance": "mixed/conditional",
+            "position_distribution": {
+              "support": 0,
+              "oppose": 0,
+              "conditional": 1
+            },
+            "consistency_pattern": "consistent",
+            "worldview_summary": "Neo-Reactionary / Techno-Monarchist shows mixed/conditional stance"
+          }
+        }
+      },
+      "comparison_analysis": {
+        "claim_comparisons": [
+          {
+            "claim_index": 0,
+            "worldview_positions": {
+              "populist_nationalist": {
+                "position": "conditional",
+                "reasoning": "",
+                "concerns": "",
+                "interpretation": ""
+              },
+              "libertarian": {
+                "position": "conditional",
+                "reasoning": "",
+                "concerns": "",
+                "interpretation": ""
+              },
+              "neo_reactionary": {
+                "position": "conditional",
+                "reasoning": "",
+                "concerns": "",
+                "interpretation": ""
+              }
+            },
+            "has_disagreement": false,
+            "position_variety": [
+              "conditional"
+            ],
+            "disagreement_type": null
+          }
+        ],
+        "summary": {
+          "total_claims_analyzed": 1,
+          "disagreements": 0,
+          "consensus_points": 1,
+          "disagreement_rate": 0.0,
+          "most_common_disagreement_type": "No disagreements found"
+        }
+      },
+      "divergence_analysis": {
+        "total_divergences": 0,
+        "divergence_details": [],
+        "common_divergence_patterns": [],
+        "fundamental_divides": []
+      },
+      "structured_input": {
+        "claims": [
+          {
+            "id": "test_claim_1",
+            "text": "AI systems may perpetuate existing biases in medical data",
+            "type": "claim",
+            "reasoning": "critique",
+            "premises": [
+              {
+                "id": "test_premise_1",
+                "text": "Medical data contains historical biases",
+                "type": "premise"
+              }
+            ]
+          }
+        ],
+        "premises": [
+          {
+            "id": "test_premise_1",
+            "text": "Medical data contains historical biases",
+            "type": "premise"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+# Core UI + Testing
+streamlit
+pytest
+
+# Deep learning / NLP models
+torch
+transformers>=4.20.0
+sentence-transformers
+datasets
+accelerate
+
+# Training and evaluation
+scikit-learn
+numpy
+pandas
+
+# Specialized model dependencies
+tokenizers
+safetensors
+
+# Optional utilities (safe for all systems)
+rank-bm25
+nltk
+wordfreq
+openai
+python-dotenv
+
+# Development and evaluation
+matplotlib
+seaborn
+tqdm

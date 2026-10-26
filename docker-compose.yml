@@ -1,0 +1,60 @@
+services:
+  backend:
+    build:
+      context: ./truthSplitStiegerTerberger
+      dockerfile: Dockerfile
+    container_name: truthsplit-backend
+    restart: unless-stopped
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - HUGGING_FACE_KEY=${HUGGING_FACE_KEY}
+      - API_PORT=5001
+      - FLASK_ENV=production
+      - PYTHONUNBUFFERED=1
+      # Disable tokenizers parallelism warnings
+      - TOKENIZERS_PARALLELISM=false
+    env_file:
+      - .env
+    volumes:
+      # Persist logs
+      - ./truthSplitStiegerTerberger/logs:/app/logs
+      # Persist data if needed
+      - ./truthSplitStiegerTerberger/data:/app/data
+    ports:
+      - "5001:5001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 120s
+    networks:
+      - truthsplit-network
+
+  frontend:
+    build:
+      context: ./truthSplitStiegerTerberger/frontend
+      dockerfile: Dockerfile
+      args:
+        # Empty VITE_API_URL for Docker - use relative URLs proxied by nginx
+        - VITE_API_URL=
+    container_name: truthsplit-frontend
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "13998:80"
+    networks:
+      - truthsplit-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+networks:
+  truthsplit-network:
+    driver: bridge
+

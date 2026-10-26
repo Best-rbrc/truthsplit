@@ -1,0 +1,368 @@
+{
+  "source_file": "example_ai",
+  "processed_at": "2025-10-12T13:15:10.286148",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Governments should establish comprehensive AI regulation frameworks to ensure responsible development and deployment.",
+      "confidence": 0.9,
+      "type": "claim",
+      "position": 3,
+      "premises": [
+        {
+          "id": "P1",
+          "text": "Artificial intelligence is rapidly transforming our society and economy.",
+          "confidence": 0.95,
+          "type": "premise",
+          "position": 0,
+          "claim_ids": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "id": "P2",
+          "text": "Machine learning algorithms now outperform humans in many specialized tasks, from image recognition to strategic game playing.",
+          "confidence": 0.9,
+          "type": "premise",
+          "position": 1,
+          "claim_ids": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "id": "P3",
+          "text": "Major technology companies are investing billions of dollars in AI research and development.",
+          "confidence": 0.9,
+          "type": "premise",
+          "position": 2,
+          "claim_ids": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "id": "P4",
+          "text": "The European Union's AI Act provides a good model for risk-based regulation.",
+          "confidence": 0.85,
+          "type": "premise",
+          "position": 4,
+          "claim_ids": [
+            "C1"
+          ]
+        },
+        {
+          "id": "P5",
+          "text": "Studies show that proactive regulation can prevent harmful outcomes while still fostering innovation.",
+          "confidence": 0.8,
+          "type": "premise",
+          "position": 5,
+          "claim_ids": [
+            "C1"
+          ]
+        }
+      ],
+      "assumptions": [
+        {
+          "id": "A1",
+          "text": "Proactive regulation is necessary to prevent harmful outcomes from AI.",
+          "confidence": 0.85,
+          "type": "assumption",
+          "claim_id": "C1",
+          "category": "normative",
+          "domain": "governance"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "text": "Balanced AI governance that promotes innovation while protecting society is essential.",
+      "confidence": 0.85,
+      "type": "claim",
+      "position": 20,
+      "premises": [
+        {
+          "id": "P1",
+          "text": "Artificial intelligence is rapidly transforming our society and economy.",
+          "confidence": 0.95,
+          "type": "premise",
+          "position": 0,
+          "claim_ids": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "id": "P2",
+          "text": "Machine learning algorithms now outperform humans in many specialized tasks, from image recognition to strategic game playing.",
+          "confidence": 0.9,
+          "type": "premise",
+          "position": 1,
+          "claim_ids": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "id": "P3",
+          "text": "Major technology companies are investing billions of dollars in AI research and development.",
+          "confidence": 0.9,
+          "type": "premise",
+          "position": 2,
+          "claim_ids": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "id": "P6",
+          "text": "The potential risks of unregulated AI development are too significant to ignore.",
+          "confidence": 0.9,
+          "type": "premise",
+          "position": 15,
+          "claim_ids": [
+            "C2"
+          ]
+        },
+        {
+          "id": "P7",
+          "text": "Autonomous weapons systems pose serious threats to international security.",
+          "confidence": 0.85,
+          "type": "premise",
+          "position": 16,
+          "claim_ids": [
+            "C2"
+          ]
+        },
+        {
+          "id": "P8",
+          "text": "Algorithmic bias in hiring and lending could perpetuate systemic discrimination.",
+          "confidence": 0.85,
+          "type": "premise",
+          "position": 17,
+          "claim_ids": [
+            "C2"
+          ]
+        },
+        {
+          "id": "P9",
+          "text": "Privacy violations through AI surveillance systems threaten fundamental human rights.",
+          "confidence": 0.85,
+          "type": "premise",
+          "position": 18,
+          "claim_ids": [
+            "C2"
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "AI automation will likely displace millions of workers across various industries.",
+          "confidence": 0.9,
+          "type": "premise",
+          "position": 19,
+          "claim_ids": [
+            "C2"
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Society needs time to develop retraining programs and social safety nets for displaced workers.",
+          "confidence": 0.8,
+          "type": "premise",
+          "position": 19,
+          "claim_ids": [
+            "C2"
+          ]
+        }
+      ],
+      "assumptions": [
+        {
+          "id": "A2",
+          "text": "Unregulated AI development poses significant risks to society.",
+          "confidence": 0.9,
+          "type": "assumption",
+          "claim_id": "C2",
+          "category": "causal",
+          "domain": "social"
+        },
+        {
+          "id": "A3",
+          "text": "The benefits of AI innovation can be balanced with the need for regulation.",
+          "confidence": 0.8,
+          "type": "assumption",
+          "claim_id": "C2",
+          "category": "normative",
+          "domain": "governance"
+        },
+        {
+          "id": "A4",
+          "text": "Displaced workers will require support and retraining due to AI automation.",
+          "confidence": 0.85,
+          "type": "assumption",
+          "claim_id": "C2",
+          "category": "empirical",
+          "domain": "economic"
+        }
+      ]
+    }
+  ],
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Artificial intelligence is rapidly transforming our society and economy.",
+      "confidence": 0.95,
+      "type": "premise",
+      "position": 0,
+      "claim_ids": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "P2",
+      "text": "Machine learning algorithms now outperform humans in many specialized tasks, from image recognition to strategic game playing.",
+      "confidence": 0.9,
+      "type": "premise",
+      "position": 1,
+      "claim_ids": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "P3",
+      "text": "Major technology companies are investing billions of dollars in AI research and development.",
+      "confidence": 0.9,
+      "type": "premise",
+      "position": 2,
+      "claim_ids": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "P4",
+      "text": "The European Union's AI Act provides a good model for risk-based regulation.",
+      "confidence": 0.85,
+      "type": "premise",
+      "position": 4,
+      "claim_ids": [
+        "C1"
+      ]
+    },
+    {
+      "id": "P5",
+      "text": "Studies show that proactive regulation can prevent harmful outcomes while still fostering innovation.",
+      "confidence": 0.8,
+      "type": "premise",
+      "position": 5,
+      "claim_ids": [
+        "C1"
+      ]
+    },
+    {
+      "id": "P6",
+      "text": "The potential risks of unregulated AI development are too significant to ignore.",
+      "confidence": 0.9,
+      "type": "premise",
+      "position": 15,
+      "claim_ids": [
+        "C2"
+      ]
+    },
+    {
+      "id": "P7",
+      "text": "Autonomous weapons systems pose serious threats to international security.",
+      "confidence": 0.85,
+      "type": "premise",
+      "position": 16,
+      "claim_ids": [
+        "C2"
+      ]
+    },
+    {
+      "id": "P8",
+      "text": "Algorithmic bias in hiring and lending could perpetuate systemic discrimination.",
+      "confidence": 0.85,
+      "type": "premise",
+      "position": 17,
+      "claim_ids": [
+        "C2"
+      ]
+    },
+    {
+      "id": "P9",
+      "text": "Privacy violations through AI surveillance systems threaten fundamental human rights.",
+      "confidence": 0.85,
+      "type": "premise",
+      "position": 18,
+      "claim_ids": [
+        "C2"
+      ]
+    },
+    {
+      "id": "P10",
+      "text": "AI automation will likely displace millions of workers across various industries.",
+      "confidence": 0.9,
+      "type": "premise",
+      "position": 19,
+      "claim_ids": [
+        "C2"
+      ]
+    },
+    {
+      "id": "P11",
+      "text": "Society needs time to develop retraining programs and social safety nets for displaced workers.",
+      "confidence": 0.8,
+      "type": "premise",
+      "position": 19,
+      "claim_ids": [
+        "C2"
+      ]
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "Proactive regulation is necessary to prevent harmful outcomes from AI.",
+      "confidence": 0.85,
+      "type": "assumption",
+      "claim_id": "C1",
+      "category": "normative",
+      "domain": "governance"
+    },
+    {
+      "id": "A2",
+      "text": "Unregulated AI development poses significant risks to society.",
+      "confidence": 0.9,
+      "type": "assumption",
+      "claim_id": "C2",
+      "category": "causal",
+      "domain": "social"
+    },
+    {
+      "id": "A3",
+      "text": "The benefits of AI innovation can be balanced with the need for regulation.",
+      "confidence": 0.8,
+      "type": "assumption",
+      "claim_id": "C2",
+      "category": "normative",
+      "domain": "governance"
+    },
+    {
+      "id": "A4",
+      "text": "Displaced workers will require support and retraining due to AI automation.",
+      "confidence": 0.85,
+      "type": "assumption",
+      "claim_id": "C2",
+      "category": "empirical",
+      "domain": "economic"
+    }
+  ],
+  "summary": {
+    "total_claims": 2,
+    "total_premises": 11,
+    "total_assumptions": 4
+  }
+}

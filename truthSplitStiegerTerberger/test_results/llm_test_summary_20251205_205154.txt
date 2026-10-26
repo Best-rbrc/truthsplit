@@ -1,0 +1,112 @@
+================================================================================
+LLM MODEL COMPARISON TEST RESULTS
+================================================================================
+
+Test Date: 2025-12-05 20:51:54
+Test Text Length: 419 characters
+Test Claim: AI systems may perpetuate existing biases in medical data
+
+================================================================================
+CLAIM EXTRACTION RESULTS
+================================================================================
+
+
+OPENAI
+----------------------------------------
+  ✓ gpt-5                            4.39s  (3 claims, 3 premises)
+  ✓ gpt-5-mini                       8.89s  (3 claims, 3 premises)
+  ✓ gpt-5-nano                       8.65s  (3 claims, 3 premises)
+
+CLAUDE
+----------------------------------------
+  ✓ claude-opus-4-5-20251101        23.30s  (3 claims, 5 premises)
+  ✓ claude-sonnet-4-5-20250929      14.25s  (3 claims, 4 premises)
+  ✓ claude-haiku-4-5-20251001       12.29s  (3 claims, 5 premises)
+
+GEMINI
+----------------------------------------
+  ✓ gemini-2.5-pro                  38.82s  (0 claims, 0 premises)
+  ✓ gemini-2.5-flash                 2.81s  (3 claims, 0 premises)
+  ✓ gemini-2.5-flash-lite            3.58s  (3 claims, 2 premises)
+
+GROK
+----------------------------------------
+  ✓ grok-4                          45.79s  (3 claims, 5 premises)
+  ✓ grok-3                          13.27s  (3 claims, 2 premises)
+  ✓ grok-3-mini                     24.64s  (3 claims, 1 premises)
+
+DEEPSEEK
+----------------------------------------
+  ✓ deepseek-r1                      5.85s  (3 claims, 4 premises)
+
+
+================================================================================
+REASONING ANALYSIS RESULTS
+================================================================================
+
+
+OPENAI
+----------------------------------------
+  ✓ gpt-5                           19.16s  (3 worldviews)
+  ✓ gpt-5-mini                      29.94s  (3 worldviews)
+  ✓ gpt-5-nano                      28.32s  (3 worldviews)
+
+CLAUDE
+----------------------------------------
+  ✓ claude-opus-4-5-20251101         1.08s  (3 worldviews)
+  ✓ claude-sonnet-4-5-20250929       0.98s  (3 worldviews)
+  ✓ claude-haiku-4-5-20251001        0.96s  (3 worldviews)
+
+GEMINI
+----------------------------------------
+  ✓ gemini-2.5-pro                  34.95s  (3 worldviews)
+  ✓ gemini-2.5-flash                13.68s  (3 worldviews)
+  ✓ gemini-2.5-flash-lite           10.89s  (3 worldviews)
+
+GROK
+----------------------------------------
+  ✓ grok-4                         138.59s  (3 worldviews)
+  ✓ grok-3                          58.29s  (3 worldviews)
+  ✓ grok-3-mini                     39.58s  (3 worldviews)
+
+DEEPSEEK
+----------------------------------------
+  ✓ deepseek-r1                     27.99s  (3 worldviews)
+
+
+================================================================================
+SPEED RANKINGS
+================================================================================
+
+Claim Extraction (fastest to slowest):
+----------------------------------------
+  1. gemini/gemini-2.5-flash                  2.81s
+  2. gemini/gemini-2.5-flash-lite             3.58s
+  3. openai/gpt-5                             4.39s
+  4. deepseek/deepseek-r1                     5.85s
+  5. openai/gpt-5-nano                        8.65s
+  6. openai/gpt-5-mini                        8.89s
+  7. claude/claude-haiku-4-5-20251001         12.29s
+  8. grok/grok-3                              13.27s
+  9. claude/claude-sonnet-4-5-20250929        14.25s
+  10. claude/claude-opus-4-5-20251101          23.30s
+  11. grok/grok-3-mini                         24.64s
+  12. gemini/gemini-2.5-pro                    38.82s
+  13. grok/grok-4                              45.79s
+
+
+Reasoning Analysis (fastest to slowest):
+----------------------------------------
+  1. claude/claude-haiku-4-5-20251001         0.96s
+  2. claude/claude-sonnet-4-5-20250929        0.98s
+  3. claude/claude-opus-4-5-20251101          1.08s
+  4. gemini/gemini-2.5-flash-lite             10.89s
+  5. gemini/gemini-2.5-flash                  13.68s
+  6. openai/gpt-5                             19.16s
+  7. deepseek/deepseek-r1                     27.99s
+  8. openai/gpt-5-nano                        28.32s
+  9. openai/gpt-5-mini                        29.94s
+  10. gemini/gemini-2.5-pro                    34.95s
+  11. grok/grok-3-mini                         39.58s
+  12. grok/grok-3                              58.29s
+  13. grok/grok-4                              138.59s

@@ -1,0 +1,278 @@
+[
+  {
+    "text": "Human autonomy and freedom of choice should be preserved",
+    "category": "normative",
+    "description": "The belief that individual agency and self-determination are fundamental values",
+    "domain": "ethics"
+  },
+  {
+    "text": "Efficiency and productivity are inherently valuable goals",
+    "category": "normative",
+    "description": "The assumption that optimizing performance metrics is desirable",
+    "domain": "economics"
+  },
+  {
+    "text": "Equality of opportunity should be ensured for all individuals",
+    "category": "normative",
+    "description": "The principle that everyone should have fair access to opportunities",
+    "domain": "social"
+  },
+  {
+    "text": "Innovation and technological progress are inherently beneficial",
+    "category": "normative",
+    "description": "The belief that technological advancement naturally leads to improvement",
+    "domain": "technology"
+  },
+  {
+    "text": "Privacy is a fundamental human right that must be protected",
+    "category": "normative",
+    "description": "The assumption that personal privacy has inherent moral value",
+    "domain": "ethics"
+  },
+  {
+    "text": "Transparency in decision-making processes is always beneficial",
+    "category": "normative",
+    "description": "The belief that openness and visibility improve outcomes",
+    "domain": "governance"
+  },
+  {
+    "text": "Potential risks should be minimized even at the cost of benefits",
+    "category": "risk",
+    "description": "Precautionary approach prioritizing safety over potential gains",
+    "domain": "policy"
+  },
+  {
+    "text": "Current security measures are adequate for emerging threats",
+    "category": "risk",
+    "description": "Confidence in existing protective systems and protocols",
+    "domain": "security"
+  },
+  {
+    "text": "Technological systems are inherently controllable and predictable",
+    "category": "risk",
+    "description": "The belief that technology can be reliably managed and directed",
+    "domain": "technology"
+  },
+  {
+    "text": "Rare but catastrophic events can be safely ignored in planning",
+    "category": "risk",
+    "description": "Tendency to discount low-probability, high-impact scenarios",
+    "domain": "policy"
+  },
+  {
+    "text": "Human oversight can effectively prevent system failures",
+    "category": "risk",
+    "description": "Confidence in human ability to monitor and control complex systems",
+    "domain": "technology"
+  },
+  {
+    "text": "Gradual implementation can mitigate most technological risks",
+    "category": "risk",
+    "description": "The belief that slower adoption allows for better risk management",
+    "domain": "policy"
+  },
+  {
+    "text": "Market mechanisms efficiently allocate resources and opportunities",
+    "category": "economic",
+    "description": "Faith in market-based solutions for distribution and optimization",
+    "domain": "economics"
+  },
+  {
+    "text": "Economic growth is necessary for societal well-being",
+    "category": "economic",
+    "description": "The assumption that expanding economic activity improves quality of life",
+    "domain": "economics"
+  },
+  {
+    "text": "Competition drives innovation and improvement",
+    "category": "economic",
+    "description": "The belief that competitive pressure leads to better outcomes",
+    "domain": "economics"
+  },
+  {
+    "text": "Cost-benefit analysis can capture all relevant values",
+    "category": "economic",
+    "description": "Confidence that economic metrics reflect true societal value",
+    "domain": "policy"
+  },
+  {
+    "text": "Short-term economic costs justify long-term technological benefits",
+    "category": "economic",
+    "description": "Willingness to accept immediate expenses for future gains",
+    "domain": "policy"
+  },
+  {
+    "text": "Displaced workers can be retrained for new technological roles",
+    "category": "economic",
+    "description": "Optimism about workforce adaptability to technological change",
+    "domain": "labor"
+  },
+  {
+    "text": "Scientific and technical expertise should guide policy decisions",
+    "category": "evidence",
+    "description": "Preference for expert knowledge in governance and regulation",
+    "domain": "governance"
+  },
+  {
+    "text": "Data-driven approaches are more objective than human judgment",
+    "category": "evidence",
+    "description": "Confidence in algorithmic and statistical methods over intuition",
+    "domain": "epistemology"
+  },
+  {
+    "text": "Current knowledge is sufficient for making important decisions",
+    "category": "evidence",
+    "description": "Confidence in existing information and understanding",
+    "domain": "epistemology"
+  },
+  {
+    "text": "Complex systems can be understood through reductionist analysis",
+    "category": "evidence",
+    "description": "The belief that breaking down complexity reveals underlying principles",
+    "domain": "science"
+  },
+  {
+    "text": "Historical patterns reliably predict future trends",
+    "category": "evidence",
+    "description": "Confidence that past experience guides future expectations",
+    "domain": "epistemology"
+  },
+  {
+    "text": "Quantitative measures capture the most important aspects of problems",
+    "category": "evidence",
+    "description": "Preference for numerical metrics over qualitative assessment",
+    "domain": "methodology"
+  },
+  {
+    "text": "Individual rights take precedence over collective concerns",
+    "category": "social",
+    "description": "Prioritization of personal freedoms over group interests",
+    "domain": "ethics"
+  },
+  {
+    "text": "Social institutions can adapt to technological changes",
+    "category": "social",
+    "description": "Confidence in institutional flexibility and resilience",
+    "domain": "society"
+  },
+  {
+    "text": "Cultural diversity should be preserved in technological development",
+    "category": "social",
+    "description": "The value of maintaining different cultural approaches and values",
+    "domain": "culture"
+  },
+  {
+    "text": "Public opinion should influence technological governance",
+    "category": "social",
+    "description": "The belief that democratic input improves technological decisions",
+    "domain": "governance"
+  },
+  {
+    "text": "Social cohesion is more important than individual optimization",
+    "category": "social",
+    "description": "Prioritization of community bonds over personal efficiency",
+    "domain": "society"
+  },
+  {
+    "text": "Existing social hierarchies are generally legitimate and stable",
+    "category": "social",
+    "description": "Acceptance of current power structures and social arrangements",
+    "domain": "society"
+  },
+  {
+    "text": "Technological solutions exist for most social problems",
+    "category": "technological",
+    "description": "Confidence in technology's problem-solving capabilities",
+    "domain": "technology"
+  },
+  {
+    "text": "Human values can be encoded into technological systems",
+    "category": "technological",
+    "description": "The belief that machines can be programmed with ethical principles",
+    "domain": "technology"
+  },
+  {
+    "text": "Technological development follows predictable trajectories",
+    "category": "technological",
+    "description": "Confidence in ability to forecast technological progress",
+    "domain": "technology"
+  },
+  {
+    "text": "Users will adapt their behavior to technological constraints",
+    "category": "technological",
+    "description": "Expectation that humans will adjust to technological requirements",
+    "domain": "technology"
+  },
+  {
+    "text": "Technological complexity can be made transparent to users",
+    "category": "technological",
+    "description": "The belief that complex systems can be made understandable",
+    "domain": "technology"
+  },
+  {
+    "text": "Technological standards and protocols ensure interoperability",
+    "category": "technological",
+    "description": "Confidence that technical standards prevent fragmentation",
+    "domain": "technology"
+  },
+  {
+    "text": "Democratic processes legitimize technological governance decisions",
+    "category": "democratic",
+    "description": "The belief that democratic input provides moral authority for decisions",
+    "domain": "governance"
+  },
+  {
+    "text": "Citizens have sufficient knowledge to make informed technology choices",
+    "category": "democratic",
+    "description": "Confidence in public ability to understand and evaluate technology",
+    "domain": "governance"
+  },
+  {
+    "text": "Representative institutions can effectively govern emerging technologies",
+    "category": "democratic",
+    "description": "Faith in existing political structures for technology policy",
+    "domain": "governance"
+  },
+  {
+    "text": "Deliberative processes improve the quality of technological decisions",
+    "category": "democratic",
+    "description": "The belief that discussion and debate lead to better outcomes",
+    "domain": "governance"
+  },
+  {
+    "text": "Majority preferences should determine technological policies",
+    "category": "democratic",
+    "description": "Support for majoritarian decision-making in technology governance",
+    "domain": "governance"
+  },
+  {
+    "text": "International cooperation can address global technological challenges",
+    "category": "global",
+    "description": "Optimism about multilateral approaches to technology governance",
+    "domain": "international"
+  },
+  {
+    "text": "Technological benefits and risks are distributed fairly globally",
+    "category": "global",
+    "description": "Assumption of equitable global distribution of technological impacts",
+    "domain": "international"
+  },
+  {
+    "text": "National sovereignty should limit global technology governance",
+    "category": "global",
+    "description": "Preference for national control over international coordination",
+    "domain": "international"
+  },
+  {
+    "text": "Global technological standards promote universal human flourishing",
+    "category": "global",
+    "description": "The belief that common standards benefit all humanity",
+    "domain": "international"
+  },
+  {
+    "text": "Technological diffusion naturally reduces global inequalities",
+    "category": "global",
+    "description": "Optimism that technology spread reduces disparities between nations",
+    "domain": "international"
+  }
+]

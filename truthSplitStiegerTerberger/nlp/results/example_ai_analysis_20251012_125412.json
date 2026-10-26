@@ -1,0 +1,182 @@
+{
+  "source_file": "example_ai",
+  "processed_at": "2025-10-12T12:54:12.366790",
+  "claims": [
+    {
+      "id": "C4",
+      "text": "Therefore, governments should establish comprehensive AI regulation frameworks to ensure responsible development and deployment.",
+      "confidence": 0.702,
+      "type": "claim",
+      "position": 3,
+      "premises": [
+        {
+          "id": "P1",
+          "text": "Major technology companies are investing billions of dollars in AI research and development.",
+          "confidence": 0.35,
+          "type": "premise",
+          "position": 2,
+          "claim_ids": [
+            "C4"
+          ]
+        },
+        {
+          "id": "P2",
+          "text": "Machine learning algorithms now outperform humans in many specialized tasks, from image recognition to strategic game playing.",
+          "confidence": 0.35,
+          "type": "premise",
+          "position": 1,
+          "claim_ids": [
+            "C4"
+          ]
+        },
+        {
+          "id": "P3",
+          "text": "Artificial intelligence is rapidly transforming our society and economy.",
+          "confidence": 0.35,
+          "type": "premise",
+          "position": 0,
+          "claim_ids": [
+            "C4"
+          ]
+        },
+        {
+          "id": "P4",
+          "text": "The European Union's AI Act provides a good model for risk-based regulation.",
+          "confidence": 0.35,
+          "type": "premise",
+          "position": 4,
+          "claim_ids": [
+            "C4"
+          ]
+        },
+        {
+          "id": "P5",
+          "text": "Studies show that proactive regulation can prevent harmful outcomes while still fostering innovation.",
+          "confidence": 0.6,
+          "type": "premise",
+          "position": 5,
+          "claim_ids": [
+            "C4"
+          ]
+        },
+        {
+          "id": "P6",
+          "text": "However, tech industry leaders argue that premature regulation could stifle innovation and harm economic competitiveness.",
+          "confidence": 0.35,
+          "type": "premise",
+          "position": 6,
+          "claim_ids": [
+            "C4"
+          ]
+        }
+      ],
+      "assumptions": [
+        {
+          "id": "A1",
+          "text": "National sovereignty should limit global technology governance",
+          "type": "assumption",
+          "confidence": 0.443,
+          "claim_id": "C4",
+          "category": "global",
+          "domain": "international"
+        },
+        {
+          "id": "A2",
+          "text": "Representative institutions can effectively govern emerging technologies",
+          "type": "assumption",
+          "confidence": 0.433,
+          "claim_id": "C4",
+          "category": "democratic",
+          "domain": "governance"
+        }
+      ]
+    }
+  ],
+  "premises": [
+    {
+      "id": "P3",
+      "text": "Artificial intelligence is rapidly transforming our society and economy.",
+      "confidence": 0.35,
+      "type": "premise",
+      "position": 0,
+      "claim_ids": [
+        "C4"
+      ]
+    },
+    {
+      "id": "P2",
+      "text": "Machine learning algorithms now outperform humans in many specialized tasks, from image recognition to strategic game playing.",
+      "confidence": 0.35,
+      "type": "premise",
+      "position": 1,
+      "claim_ids": [
+        "C4"
+      ]
+    },
+    {
+      "id": "P1",
+      "text": "Major technology companies are investing billions of dollars in AI research and development.",
+      "confidence": 0.35,
+      "type": "premise",
+      "position": 2,
+      "claim_ids": [
+        "C4"
+      ]
+    },
+    {
+      "id": "P4",
+      "text": "The European Union's AI Act provides a good model for risk-based regulation.",
+      "confidence": 0.35,
+      "type": "premise",
+      "position": 4,
+      "claim_ids": [
+        "C4"
+      ]
+    },
+    {
+      "id": "P5",
+      "text": "Studies show that proactive regulation can prevent harmful outcomes while still fostering innovation.",
+      "confidence": 0.6,
+      "type": "premise",
+      "position": 5,
+      "claim_ids": [
+        "C4"
+      ]
+    },
+    {
+      "id": "P6",
+      "text": "However, tech industry leaders argue that premature regulation could stifle innovation and harm economic competitiveness.",
+      "confidence": 0.35,
+      "type": "premise",
+      "position": 6,
+      "claim_ids": [
+        "C4"
+      ]
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "National sovereignty should limit global technology governance",
+      "type": "assumption",
+      "confidence": 0.443,
+      "claim_id": "C4",
+      "category": "global",
+      "domain": "international"
+    },
+    {
+      "id": "A2",
+      "text": "Representative institutions can effectively govern emerging technologies",
+      "type": "assumption",
+      "confidence": 0.433,
+      "claim_id": "C4",
+      "category": "democratic",
+      "domain": "governance"
+    }
+  ],
+  "summary": {
+    "total_claims": 1,
+    "total_premises": 6,
+    "total_assumptions": 2
+  }
+}
